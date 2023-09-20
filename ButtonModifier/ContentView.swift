@@ -9,7 +9,7 @@ import SwiftUI
 
 struct DefaultButtonModifier: ViewModifier {
     let color: Color
-    
+    // impplementation
     func body(content: Content) -> some View {
         content
             .font(.headline)
